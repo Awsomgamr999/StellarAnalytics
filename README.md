@@ -22,18 +22,11 @@ enabled = true
 - Shows the total time spent in the game across all sessions.
 - Time is displayed in a Days:Hours:Minutes:Seconds format.
 
-### Minimal & Safe Data Storage
-- Saves only one value: the total accumulated playtime.
-- Stored in a single text file named `timeFile.txt`.
+### NOTE
+- This mod does save an additional file onto your computer. the file is called `timeFile.txt`. The purpose of this file is to save the amount of time that you have previously spent on the game to accurately tell you total time played.
 
-**Location of saved data:**
+**Location of file:**
 `%LOCALAPPDATA%/KSA/StellarAnalytics/timeFile.txt`
-
-
-### Data Safety Notes
-- Only the total playtime (as a number) is saved.
-- No personal information, logs, or extra files are created.
-- Uses a safe writable directory so it works even if the game is installed in protected locations like Program Files.
 
 ## Source Code
 The complete source code for StellarAnalytics is available on the [GitHub](https://github.com/Awsomgamr999/StellarAnalytics/tree/main).
