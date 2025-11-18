@@ -4,7 +4,17 @@ StellarAnalytics is a simple analytics mod for Kitten Space Agency that records 
 
 ## Install
 
-- Go to [releases](https://github.com/Awsomgamr999/StellarAnalytics/releases/latest)
+1. Go to [releases](https://github.com/Awsomgamr999/StellarAnalytics/releases/latest)
+2. Download and extract the `.zip` file
+3. Move the unzipped folder into the `Content\` folder of Kitten Space Agency
+4. Edit the `Manifest.toml` in `\My Games\Kitten Space Agency\` and add the following:
+```
+[mods]
+name = "StellarAnalytics"
+enabled = true
+```
+5. Run KSA through [StarMap](https://github.com/StarMapLoader/StarMap/releases/latest)
+
 ## Features
 
 ### In-Game Time Display
